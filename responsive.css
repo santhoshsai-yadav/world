@@ -1,0 +1,202 @@
+.checkbtn{
+    color: white;
+    display: none;
+  margin-right: 50px;
+}
+#check{
+    display: none;
+}
+@media (max-width:576px) {
+    .navlinks{
+   position: absolute;
+   flex-direction: column;
+   height: 300px;
+   width: 200px;
+   display: none;
+   top: 150px;
+
+    }
+
+    .navlinks li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 600px;
+        background-color: #525f7f;
+        color: #0094b9;
+      
+    }
+    .navlinks li a:hover{
+        background-color: white;
+       color: #525f7f;
+    }
+    .checkbtn{
+        display: block;
+    }
+#check:checked~.navlinks{
+    display: flex;
+}
+.herosection{
+    padding: 20px;
+}
+.herosection h1{
+  font-size: 50px;
+}
+.herosection h3{
+    padding: 20px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+.about{
+    padding: 40px;
+    /* text-align: none; */
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 100%;
+}
+.para p{
+    width: 100%;
+    text-align: left;
+}
+.coding h3{
+font-size: 30px;
+}
+.codingpara p{
+    padding: 7px 0px;
+}
+.us{
+    font-size: 20px;
+}
+.schools{
+    padding:0px 0px;
+    font-size: 50px;
+  
+}
+.Roboto{
+    padding: 0 20px;
+}
+.ready{
+    padding: 20px;
+    line-height: 40px;
+}
+.ready h2{
+    font-size: 20px;
+}
+.ready button{
+    padding: 10px 100px;
+}
+.world{
+    font-size: 25px; 
+}
+.subjects{
+    font-size: 30px; 
+}
+.Coder h2{
+    padding:0 0px;
+    line-height: 35px;
+}
+.Coder h5{
+    padding:0 0px;
+}
+.learns h2{
+    padding: 20px  0px;
+  
+}
+
+  
+
+.learns h3{
+    padding: 6px  20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.learns h4{
+    padding: 6px  20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.impart img{
+    height: 50px; 
+}
+.impart p{
+    padding: 5px 20px;
+    line-height: 30px;
+}
+.personalized img{
+    height: 100px;
+}
+.personalized p{
+    padding: 6px 20px;
+    line-height: 30px;
+}
+.epic img{
+    height: 100px;
+}
+.phot button{
+    padding: 17px 80px;
+}
+.your button{
+    padding: 17px 10px;
+}
+
+.Codingcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin-right: 30px;
+ 
+}
+.codingsheader img{
+    padding: 20px 0px;
+    margin-right: 180px;
+}
+.events h3{
+    padding: 0 0px;
+    margin-right: 300px;
+}
+.codingbody h2{
+    margin-right: 240px;
+}
+.envelop  li{
+    margin-left: 36px;
+}
+.cohead h4{
+    padding: 0px 0px;
+    margin-right: 300px;
+}
+.touch{
+    
+    padding: 0 20px;
+  
+}
+.youtube{
+    margin-right: 280px;
+}
+
+.cobody{
+    margin-right: 280px;
+}
+.cobody button{
+margin-left: 30px;
+}
+
+
+.herocontainer{
+    background-color: #b2b2b2;
+    height: 30vh;
+   
+}
+.about {
+  
+    padding:80px;
+    
+}
+.pictures{
+    padding: 0px 40px;
+}
+}
